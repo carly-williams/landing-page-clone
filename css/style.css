@@ -69,14 +69,14 @@ div {
 	text-align: center;
 }
 
-.title {
+h1 {
 	margin: 0px;
 	padding-top: 12rem;
 	font-size: 3.2em;
 	font-weight: 300;
 }
 
-.wifi {
+h3 {
 	margin: 0px;
 	padding: .6rem;
 	font-size: 1.6em;
@@ -98,3 +98,36 @@ div {
 	cursor: pointer;
 }
 
+.cases {
+	background-color: #fff;
+}
+
+.cases .devices {
+	display: inline-block;
+	width: 33.33333%;
+	text-align: center;
+	vertical-align: top;
+	margin-right: -4px;
+}
+
+.devices img {
+	height: 7.8em;
+	margin-bottom: 2.2em;
+}
+
+.cases h1 {
+	text-align: center;
+ 	font-size: 2.8em;
+ 	padding-top: 7.5rem;
+ 	padding-bottom: 3rem;
+
+}
+
+.cases h3 {
+	font-weight: 400;
+	padding: 0;
+}
+
+.cases .content {
+	padding-bottom: 8em;
+}
